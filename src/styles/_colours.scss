@@ -1,0 +1,11 @@
+$button-colours: #7F5AF0;
+$background-colours: #16161A;
+$icon-colours: #2CB67D;
+$font-colours: #FFFFFE;
+
+@mixin neo() {
+    border-radius: 15px;
+    background: #2CB67D;
+    box-shadow: 20px 20px 60px #259b6a,
+            -20px -20px 60px #33d190;
+}

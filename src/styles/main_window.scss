@@ -1,0 +1,28 @@
+@use 'colours';
+
+#root {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15vw;
+}
+
+.left-cnt {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-cnt-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-cnt-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+video {
+    width: 100%;
+    max-height: 100%;
+}
