@@ -26,8 +26,7 @@ ipcMain.on("GET_SOURCE", async () => {
 ipcMain.on("SELECT_SOURCE", () => displaysWindow.hide())
 
 const createDisplaysWindow = (data) => {
-
-
+  
     if (displaysWindow) {
         displaysWindow.show()
         return
